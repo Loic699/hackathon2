@@ -1,3 +1,9 @@
+body{
+    background: #1dbf73
+}
+#back{
+    margin-top: 50px;
+}
 .backgroundGreen{
     background-color: #1dbf73;
 }
@@ -12,8 +18,10 @@
   }
   .step{
     margin-top: 35px;
-    height: 100%;
+   
     width: 100%;
+    position: fixed;
+  top: 0;
   }
 .chat-col{
     right: -100vw;

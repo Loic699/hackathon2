@@ -119,3 +119,9 @@ window.addEventListener('load', ()=>{
         helpers.toggleModal('recording-options-modal', false);
     });
 })
+function maFonction()
+{
+  document.location.href="/list";
+ //code
+
+}

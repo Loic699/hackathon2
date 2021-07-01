@@ -18,9 +18,15 @@
     </head>
 
     <body>
-        <div class="step"></div>
-        <label class="classlabel" for="file">Step 3</label>
+        <div class=" step">
+        <label class="classlabel fixed-top" for="file">Step 3</label>
         <progress id="file" max="100" value="100" optimum="80"> 70% </progress>
+    </div>
+    <div id="back">
+        <input name="bouton_terminer" type="button" value="Back to list" 
+        onclick="document.location.href='/list'">
+        <!--<button onclick="document.location.href='http://localhost:3000/list'"> <a  > back to list</a></button>-->
+    </div>
         <div class="custom-modal" id='recording-options-modal'>
             <div class="custom-modal-content">
                 <div class="row text-center">
